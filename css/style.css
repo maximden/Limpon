@@ -2,7 +2,6 @@
     font-family: 'Open Sans - Semibold';
     src: url(../fonts/OpenSansSemibold.ttf);
 }
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -18,14 +17,14 @@ a {
 h1 {
     /* Style for "Best Softw" */
     color: #192b59;
-    font-family: "Open Sans - Semibold";
+    font-family: "Open Sans - Semibold", serif;
     font-size: 40px;
     font-weight: 400;
 }
 
 .nav {
     color: #6e7ea9;
-    font-family: "Open Sans";
+    font-family: "Open Sans", serif;
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -33,7 +32,7 @@ h1 {
 
 .btn_free {
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: "Open Sans", serif;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;

@@ -2,14 +2,10 @@
     font-family: 'Open Sans - Semibold';
     src: url(../fonts/OpenSansSemibold.ttf);
 }
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 26px;
-    color: #7581a1;
-
+@font-face {
+    font-family: "Myriad Pro";
+    src: url(../fonts/MyriadPro-Regular.ttf);
 }
-
 a {
     text-decoration: none;
 }
@@ -22,21 +18,53 @@ h1 {
     font-weight: 400;
 }
 
+
 .nav {
     color: #6e7ea9;
     font-family: "Open Sans", serif;
     font-size: 12px;
     font-weight: 700;
+    line-height: 90px;
     text-transform: uppercase;
+    list-style-type: none;
+    letter-spacing: 2.4px;
+}
+.logo {
+    font-family: "Open Sans", serif;
+    width: 113px;
+    height: 19px;
+    color: #192b59;
+    font-size: 24px;
+    line-height: 90px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+}
+.logo a img {
+    float: left;
 }
 
-.btn_free {
+.btn_primary {
     color: #ffffff;
-    font-family: "Open Sans", serif;
     font-size: 12px;
-    font-weight: 400;
+    font-width: 700;
     text-transform: uppercase;
     background-color: #1085e4;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+.btn_secondary {
+    color: #7e8bae;
+    font-size: 12px;
+    font-width: 700;
+    text-transform: uppercase;
+    background-color: #cbdbe8;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+.btn_free {
+    font-weight: 400;
+    letter-spacing: 1.7px;
+    padding: 21px 56px;
 }
 
 .grid h2 {
